@@ -31,5 +31,9 @@ namespace Zhuang.Ioc
             IocContainer.Register(registraion);
         }
 
+        public T Resolve<T>()
+        {
+            return IocContainer.Resolve<T>();
+        }
     }
 }
