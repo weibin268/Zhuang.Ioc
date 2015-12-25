@@ -35,5 +35,15 @@ namespace Zhuang.Ioc
         {
             return IocContainer.Resolve<T>();
         }
+
+        public void Release(object obj)
+        {
+            IocContainer.Release(obj);
+        }
+
+        public void Dispose()
+        {
+            IocContainer.Dispose();
+        }
     }
 }

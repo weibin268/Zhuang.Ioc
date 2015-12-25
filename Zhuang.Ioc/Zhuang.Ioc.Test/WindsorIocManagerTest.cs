@@ -16,7 +16,7 @@ namespace Zhuang.Ioc.Test
             WindsorIocManager manager = new WindsorIocManager();
             manager.Register<IFly,Bird>();
 
-            var fly = manager.IocContainer.Resolve<IFly>();
+            var fly = manager.Resolve<IFly>();
             fly.Fly();
 
         }

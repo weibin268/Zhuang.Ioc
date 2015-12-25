@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Zhuang.Ioc
 {
-    public interface IIocManager<TIocContainer>
+    public interface IIocManager<TIocContainer> : IDisposable
     {
         TIocContainer IocContainer { get; set; }
 
@@ -13,5 +13,7 @@ namespace Zhuang.Ioc
             where TType : class where TImpl : class, TType;
 
         T Resolve<T>();
+
+        void Release(object obj);
     }
 }
