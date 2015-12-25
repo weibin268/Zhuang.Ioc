@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Zhuang.Ioc
+namespace Zhuang.Ioc.Test.TestClass
 {
-    public class IocManager : IIocManager
+    public interface IFly
     {
-
+        void Fly();
     }
 }
