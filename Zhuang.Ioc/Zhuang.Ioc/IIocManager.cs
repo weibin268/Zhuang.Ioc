@@ -5,7 +5,8 @@ using System.Text;
 
 namespace Zhuang.Ioc
 {
-    public class Class1
+    public interface IIocManager
     {
+
     }
 }
