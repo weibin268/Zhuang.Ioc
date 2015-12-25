@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhuang.Ioc", "Zhuang.Ioc\Zhuang.Ioc.csproj", "{A1923D60-5E2A-40D2-A720-983CB5F7678D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhuang.Ioc.Test", "Zhuang.Ioc.Test\Zhuang.Ioc.Test.csproj", "{A793ADC8-6BEC-4B56-BE9C-5A7456F6D414}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1923D60-5E2A-40D2-A720-983CB5F7678D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1923D60-5E2A-40D2-A720-983CB5F7678D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1923D60-5E2A-40D2-A720-983CB5F7678D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1923D60-5E2A-40D2-A720-983CB5F7678D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A793ADC8-6BEC-4B56-BE9C-5A7456F6D414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A793ADC8-6BEC-4B56-BE9C-5A7456F6D414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A793ADC8-6BEC-4B56-BE9C-5A7456F6D414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A793ADC8-6BEC-4B56-BE9C-5A7456F6D414}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

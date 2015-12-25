@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Zhuang.CastleWindsor")]
+[assembly: AssemblyTitle("Zhuang.Ioc.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Zhuang.CastleWindsor")]
+[assembly: AssemblyProduct("Zhuang.Ioc.Test")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("864d5135-b3b5-42cd-8421-64f65e8e1d49")]
+[assembly: Guid("a793adc8-6bec-4b56-be9c-5a7456f6d414")]
 
 // Version information for an assembly consists of the following four values:
 //
