@@ -9,8 +9,7 @@ namespace Zhuang.Ioc
     {
         TIocContainer IocContainer { get; set; }
 
-        void Register<TType, TImpl>(bool singleton = false)
-            where TType : class where TImpl : class, TType;
+        void Register<TType, TImpl>(bool singleton = false) where TType : class where TImpl : class, TType;
 
         T Resolve<T>();
 
